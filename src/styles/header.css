@@ -1,0 +1,43 @@
+@import url(./fonts.css);
+
+.header .container {
+    display: flex;
+    margin-top: 30px;
+
+    justify-content: space-between;
+    align-items: center;
+
+    color: #fff;
+}
+
+.list__header {
+    display: flex;
+    gap: 30px;
+}
+
+.list__header-link {
+    font-family: 'Monstserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.header__contact {
+    display:grid;
+    justify-items: center;     
+    align-items: center;
+    gap: 10px;
+}
+
+.number__header {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+
+
+.btn__header {
+    padding: 5px 20px;
+    width: 236px;
+    height: 36px;
+}
