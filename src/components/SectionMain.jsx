@@ -4,7 +4,6 @@ import "../styles/index.css"
 
 const SectionMain = () => {
   return (
-    <div>
       <main className="main">
         <div className="container">
             <div className="main__text">
@@ -25,7 +24,6 @@ const SectionMain = () => {
             </div>
         </div>
     </main>
-    </div>
   );
 };
 

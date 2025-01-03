@@ -1,0 +1,49 @@
+.charter .container {
+    display: flex;
+    margin-bottom: 700px; /* Убедитесь, что есть достаточно места в ногах секции */
+    
+}
+.title__section-charter {
+    margin-top: 180px;
+
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    width: 622px;
+    
+
+}
+
+.title__section-charter span {
+    color: #E91609;
+}
+.text__desc-left {
+    width: 622px;
+    height: 450px;
+
+    display: grid;
+    gap:20px;
+
+    
+}
+
+.text-desc {
+    font-size: 20px;
+    width: 582px;
+    font-weight: 100;
+}
+
+.link-text {
+    margin-top: 80px;
+
+    font-size: 20px;
+    border-bottom: 3px #E91609 solid;
+
+    width: 266px;
+}
+
+.sertification-img {
+    width: 694px;
+    height: 828px;
+}
