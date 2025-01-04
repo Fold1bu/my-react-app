@@ -1,6 +1,58 @@
+.title__patner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding-top: 80px;
+    
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+
+    margin-bottom: 100px;
+
+}
+
+.title__patner span {
+    margin-left: 10px;
+    margin-right: 10px;
+
+    color: #E91609;
+}
 .partner-benefits {
-    padding-top: 50px; /* Добавьте верхний отступ, чтобы отделить от предыдущей секции */
+    background-color: rgb(227, 227, 227, 0.6);
+    
+    padding-bottom: 80px;
+}
+
+.point-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Создает 3 колонки */
+    grid-template-rows: repeat(2, auto); /* Автоматическая высота строк */
+    gap: 100px; /* Расстояние между элементами */
 
     
-    clear: both; /* Убедитесь, что нет наложений */
+}
+
+.point-item {
+    width: 355px;
+    height: 190px;
+}
+
+.title__list {
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.desc__list {
+    margin-top: 10px;
+    font-size: 20px;
+
+    color: #252525;
+    opacity: 0.6;
+
+    font-weight: 400;
+
+    
 }

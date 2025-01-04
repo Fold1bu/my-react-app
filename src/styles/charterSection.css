@@ -1,49 +1,50 @@
 .charter .container {
     display: flex;
-    margin-bottom: 700px; /* Убедитесь, что есть достаточно места в ногах секции */
     
+    min-height: 828px; /* вместо height: 828px */
 }
 .title__section-charter {
-    margin-top: 180px;
-
     font-size: 35px;
     font-weight: 700;
     text-transform: uppercase;
 
     width: 622px;
-    
-
 }
 
 .title__section-charter span {
     color: #E91609;
 }
 .text__desc-left {
+    margin-top: 180px;
     width: 622px;
     height: 450px;
-
-    display: grid;
-    gap:20px;
-
-    
 }
 
 .text-desc {
     font-size: 20px;
     width: 582px;
     font-weight: 100;
+
+    margin-top: 20px;
+}
+
+.text-three {
+    margin-bottom: 100px;
 }
 
 .link-text {
-    margin-top: 80px;
 
     font-size: 20px;
     border-bottom: 3px #E91609 solid;
 
     width: 266px;
+    
 }
 
 .sertification-img {
-    width: 694px;
-    height: 828px;
+    height: auto;
+    max-height: 100%; /* Не превышает высоту родителя */
+    width: auto; /* Чтобы сохранять пропорции */
 }
+
+

@@ -24,7 +24,9 @@ const ListPoint = () => {
         <section className="partner-benefits">
             <div className='container'>
                 <h1 className='title__patner'>
-                    наши <span>Партнеры</span> получают
+                    наши
+                    <span> Партнеры </span>
+                    получают
                 </h1>
 
                 <div className="point-container">

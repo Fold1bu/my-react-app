@@ -1,4 +1,6 @@
+@import url(./fonts.css);
 /* Reset and base styles  */
+
 * {
 	padding: 0px;
 	margin: 0px;
@@ -114,7 +116,6 @@ html {
 
 
 body {
-    font-family: "Montserrat", sans-serif;
     background-color: #F9F9F9;
     color: rgb(0, 0, 0);
         /* position: relative;
