@@ -1,0 +1,122 @@
+
+.revenue {
+    margin-top: 85px;
+    margin-bottom: 150px;
+}
+
+.title__revenue {
+    text-align: center;
+
+    display: grid;
+    gap: 20px;
+
+    
+}
+
+.title__text-revenue {
+    text-transform: uppercase;
+
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.title__text-revenue span {
+    color: #E91609;
+}
+
+.desc__text-revenue {
+    font-size: 20PX;
+
+    margin-bottom: 80px;
+}
+
+.container__card-revenue {
+    display: flex;
+    gap: 20px;
+
+    margin-bottom: 80px;
+}
+
+.card__revenue {
+    padding: 160px;
+    
+}
+
+.card__revenue:nth-child(odd) { 
+    background-image: url(../image/bg/point-1.png);
+}
+
+.card__revenue:nth-child(even) { 
+    background-image: url(../image/bg/point.png);
+}
+
+.title__card-revenue {
+    color: #E91609;
+
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+.desc__text-revenue_card {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.desc__card-revenue {
+    margin-top: 40px;
+
+    font-size: 20px;
+    width: 400px;
+
+    margin-bottom: 40px;
+}
+
+.price__text-revenue {
+    margin-bottom: 40px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+
+    font-weight: 700;
+}
+
+.price {
+    font-size: 65px;
+}
+
+.price__text {
+    font-size: 20px;
+}
+
+.price__text-footer {
+    font-size: 20px;
+
+}
+
+.footer__revenue {
+    text-align: center;
+    
+}
+
+.desc__text__footer-revenue {
+    margin: auto;
+
+    margin-bottom: 40px;
+
+    font-weight: 700;
+    font-size: 20px;
+
+    width: 580px;
+}
+
+.btn__footer-revenue {
+    padding: 5px 20px;
+
+    color: #fff;
+}
+

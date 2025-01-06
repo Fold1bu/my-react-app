@@ -4,6 +4,7 @@
 @import url(./main.css);
 @import url(./charterSection.css);
 @import url(./ListPoint.css);
+@import url(./RevenuePoints.css);
 
 .container {
     max-width: 1420px;
