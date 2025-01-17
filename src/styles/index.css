@@ -5,6 +5,7 @@
 @import url(./charterSection.css);
 @import url(./ListPoint.css);
 @import url(./RevenuePoints.css);
+@import url(./SectionBenefit.css);
 
 .container {
     max-width: 1420px;

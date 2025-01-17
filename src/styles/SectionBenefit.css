@@ -1,0 +1,71 @@
+.benefit {
+    background-image: url(../image/benefit/Group\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover; /* Обеспечивает растягивание фона */
+    background-position: center; /* Центрирует фон */
+    width: 100%; /* Задает ширину 100% */
+    height: 100vh; /* Высота одного экрана */
+
+    margin-bottom: 120px;
+
+}
+.title__benefit {
+    text-align: right;
+
+    font-weight: 700;
+    font-size: 35px;
+
+    padding-top: 40px;
+    padding-right: 100px;
+}
+
+.title__benefit span {
+    color: red;
+}
+
+.benefit__charter {
+    display: flex;               
+    flex-direction: column;      
+    align-items: center;         
+    padding-top: 125px;   
+}
+
+
+
+.benefit__list {
+    width: 665px;
+    height: 164px;
+
+    display: flex;               /* Элементы внутри списка располагаются в ряд */
+    align-items: center;         /* Центруем изображение и текст по вертикали */
+    gap: 40px;                  /* Промежуток между изображением и текстом */
+    margin: 20px 0;   
+}
+
+.benefit__list:nth-child(1) {
+    margin-left: 600px; /*Первый элемент - отступ 40px*/
+}
+
+.benefit__list:nth-child(2) {
+    margin-left: 200px; /*Второй элемент - отступ 20px*/
+}
+
+.benefit__list:nth-child(3) {
+    margin-left: -100px; /*Третий элемент - без отступа*/
+}
+
+.title__list-benefit {
+    font-size: 28px;
+    font-weight: 700;
+
+    text-transform: uppercase;
+    color: #fff;
+    
+    margin-bottom: 10px;
+}
+.desc__list-benefit {
+    font-weight: 400;
+    font-size: 20px;
+
+    color: rgb(255, 255, 255, 0.4);
+}
