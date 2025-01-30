@@ -6,6 +6,7 @@ import SectionCharter from './SectionCharter.jsx';
 import ListPoint from './ListPoint.jsx';
 import RevenuePoints from './RevenuePoints.jsx';
 import SectionBenefit from './SectionBenefit.jsx';
+import TradeOffer from './TradeOffer.jsx';
 
 const Main = () => {
   return (
@@ -16,6 +17,7 @@ const Main = () => {
       <ListPoint />
       <RevenuePoints />
       <SectionBenefit />
+      <TradeOffer />
     </>
   );
 };

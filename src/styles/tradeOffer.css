@@ -1,0 +1,69 @@
+.trade {
+
+}
+
+.title__trade {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 35px;
+
+    margin-bottom: 60px;
+}
+
+.title__trade span {
+    color: red;
+}
+
+.trade__wrapper {
+    display: flex;
+    justify-content: space-between;
+
+    gap: 30px;
+
+    margin-bottom: 60px;
+}
+
+.trade__card {
+    background-image: url(../image/bg/product.jpg);
+    background-repeat: no-repeat;
+
+    padding: 50px 85px;
+    width: 30%;
+
+    display: flex; /* Включить режим flex */
+    flex-direction: column; /* Установить вертикальное направление */
+    justify-content: space-between;
+}
+
+.title__card-trade {
+    color: #fff;
+    font-weight: 700;
+    font-size: 35px;
+
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+.title__card-trade span {
+    color: red;
+}
+
+.desc__card-trade {
+    margin-bottom: 25px;
+
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+
+    text-transform:lowercase;
+}
+
+.old-service {
+    color: gray;
+}
+
+.btn__card-trade {
+    padding: 5px 20px;
+    color: #fff;
+}

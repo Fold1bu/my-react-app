@@ -6,6 +6,7 @@
 @import url(./ListPoint.css);
 @import url(./RevenuePoints.css);
 @import url(./SectionBenefit.css);
+@import url(./tradeOffer.css);
 
 .container {
     max-width: 1420px;
