@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/index.css"
 import TradeCard from "./TradeCard";
+import img from '../image/svg/Line 2.svg'
 
 
 const TradeOffer = () => {
@@ -56,8 +57,23 @@ const TradeOffer = () => {
                     />
                 ))}
             </div>
+
+            <div className="trade__points">
+                <h1 className="title__points-trade">
+                    Помимо приобретения пакета, вам необходимы
+                </h1>
+
+                <ul className="list__points-trade">
+                    <li className="list__points-text"><img src={img} alt="" />Офис продаж от 25 кв.м </li>
+                    <li className="list__points-text"><img src={img} alt="" />Косметический ремонт в офисе</li>
+                    <li className="list__points-text"><img src={img} alt="" />Организация рабочих мест</li>
+                    <li className="list__points-text"><img src={img} alt="" />Рекламный бюджет на 1-2 месяца</li>
+                </ul>
+
+                <button className="btn btn__points-trade">Скачать дилерский договор</button>
+            </div>
+            
         </div>
-        
     </section>
     );
 };

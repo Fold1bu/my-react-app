@@ -7,6 +7,7 @@ import ListPoint from './ListPoint.jsx';
 import RevenuePoints from './RevenuePoints.jsx';
 import SectionBenefit from './SectionBenefit.jsx';
 import TradeOffer from './TradeOffer.jsx';
+import VideoReviews from './VideoReviews.jsx';
 
 const Main = () => {
   return (
@@ -18,6 +19,7 @@ const Main = () => {
       <RevenuePoints />
       <SectionBenefit />
       <TradeOffer />
+      <VideoReviews />
     </>
   );
 };

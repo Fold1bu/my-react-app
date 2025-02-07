@@ -67,3 +67,43 @@
     padding: 5px 20px;
     color: #fff;
 }
+
+.trade__points {
+    margin-bottom: 140px;
+}
+.title__points-trade {
+    font-weight: 700;
+    font-size: 35px;
+
+    text-transform: uppercase;
+
+    margin-bottom: 40px;
+}
+.list__points-trade {
+    font-weight: 300;
+    font-size: 20px;
+    
+}
+
+.list__points-trade img {
+    margin-right: 15px;
+}
+
+.list__points-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.list__points-text:nth-last-child(1) {
+    margin-bottom: 40px;
+}
+
+.btn__points-trade {
+    padding: 5px 20px;
+    
+    font-weight: 700;
+    font-size: 22px;
+
+    color: #fff;
+}
