@@ -8,6 +8,8 @@ import RevenuePoints from './RevenuePoints.jsx';
 import SectionBenefit from './SectionBenefit.jsx';
 import TradeOffer from './TradeOffer.jsx';
 import VideoReviews from './VideoReviews.jsx';
+import FormFooter from './FormFooter.jsx';
+import Footer from './Footer.jsx';
 
 const Main = () => {
   return (
@@ -20,6 +22,8 @@ const Main = () => {
       <SectionBenefit />
       <TradeOffer />
       <VideoReviews />
+      <FormFooter />
+      <Footer />
     </>
   );
 };

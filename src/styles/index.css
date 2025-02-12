@@ -8,6 +8,8 @@
 @import url(./SectionBenefit.css);
 @import url(./tradeOffer.css);
 @import url(./VideoReviews.css);
+@import url(./FormFooter.css);
+@import url(./Footer.css);
 
 .container {
     max-width: 1420px;

@@ -1,0 +1,78 @@
+.footer {
+    background-color: #252525;
+}
+
+.footer .container {
+    display: flex;
+    gap: 219px;
+
+    padding: 80px 0 110px 0;
+
+    font-family: 'Ubuntu' sans-serif;
+
+}
+
+.logo {
+    margin-bottom: 5px;
+}
+
+.title__info {
+    font-weight: 700;
+    font-size: 18px;
+
+    text-transform: uppercase;
+    color: #fff;
+
+    margin-bottom: 5px;
+}
+
+.text__info {
+    font-size: 15px;
+
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.document__info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    font-size: 22px;
+    color: #fff;
+}
+
+.title__info_document {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+.social_networks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    color: #fff;
+}
+
+.title__social {
+    font-weight: 700;
+    font-size: 22px;
+
+    text-transform: uppercase;
+
+}
+
+.icon__social {
+    display: flex;
+    gap: 20px;
+}
+
+.desc__social {
+    font-size: 15px;
+}
+
+.img__whatsapp {
+    width: 35px;
+    height: 35px;
+}

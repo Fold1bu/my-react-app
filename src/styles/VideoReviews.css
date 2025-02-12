@@ -1,13 +1,10 @@
 .reviews {
     background-color: #E2E2E2;
-
-    padding: 110px 0 125px 0;
-}
-
-.reviews .container {
     background-image: url(../image/bg/Group2.png);
     background-repeat: no-repeat;
-    
+    background-position: 270px 211px ;
+
+    padding: 110px 0 185px 0;
 }
 .title__reviews {
     font-weight: 700;
@@ -26,9 +23,6 @@
     display: flex;
     gap: 50px;
 
-}
-.left__video-reviews {
-    
 }
 .right__text-reviews {
     display: flex;

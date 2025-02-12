@@ -1,0 +1,83 @@
+.form__footer {
+    padding: 110px 0 74px 0;
+}
+
+.form__footer .container {
+    display: flex;
+    gap: 60px;
+}
+
+.text__left__form {
+    max-width: 430px;
+    max-height: 180px;
+}
+
+.title__left {
+    font-family: 'Outfit' sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+.desc__form {
+    font-size: 20px;
+    color: rgb(37, 37, 37, 0.6);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__holder {
+    font-size: 22px;
+    border: 1px solid silver;
+    border-radius: 20px;
+
+    margin-bottom: 20px;
+
+    padding: 5px 20px;
+}
+
+.btn__form {
+
+    padding: 5px 20px;
+
+    font-weight: 700;
+    font-size: 22px;
+
+    background-color: red;
+    
+    border-radius: 20px;
+
+    color: #fff;
+}
+
+.small-text {
+    margin-top: 20px;
+    
+    color:rgb(37, 37, 37, 0.5);
+    font-size: 15px;
+}
+
+.text__right__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.call-button {
+    background-color: #252525;
+    color: #fff;
+
+    
+    padding: 5px 80px;
+
+    font-weight: 700;
+    font-size: 22px;
+
+    border-radius: 20px;
+}
