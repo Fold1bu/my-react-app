@@ -32,14 +32,13 @@
 
 .container__card-revenue {
     display: flex;
-    gap: 20px;
+    gap: 60px;
 
     margin-bottom: 80px;
 }
 
 .card__revenue {
     padding: 110px;
-    
 }
 
 .card__revenue:nth-child(odd) { 
