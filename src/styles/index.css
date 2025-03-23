@@ -23,7 +23,13 @@
     border-radius: 20px;
 
     background-color: #E91609;
+    transition:  background-color 0.3s;
 } 
+
+.btn:hover {
+    background-color: #8a0c05;
+}
+
 
 body {
     font-family: "Montserrat", sans-serif;

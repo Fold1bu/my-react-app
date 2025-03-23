@@ -29,7 +29,7 @@ const SectionCharter = () => {
                         <b>Больше о системе XL PIPE</b>
                     </a>
                 </div>
-                <img src={img} alt="" class="sertification-img" />
+                <img src={img} alt="" className="sertification-img" />
             </div>
         </section>
     );

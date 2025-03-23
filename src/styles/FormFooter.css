@@ -54,6 +54,12 @@
     border-radius: 20px;
 
     color: #fff;
+
+    transition: background-color, 0.3s;
+}
+
+.btn__form:hover {
+    background-color: rgb(158, 31, 31);
 }
 
 .small-text {
@@ -80,4 +86,21 @@
     font-size: 22px;
 
     border-radius: 20px;
+
+    transition: background-color, color, 0.3s;
+}
+
+.call-button:hover {
+    background-color: #d1cdcd;
+    color: #252525;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.success-message {
+    color: green;
+    margin-top: 10px;
 }
